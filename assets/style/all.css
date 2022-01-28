@@ -12327,6 +12327,8 @@ footer {
         bottom: -60px; } }
   footer a {
     color: #fff; }
+    footer a:focus {
+      border: 2px dashed #ffc423 !important; }
 
 .aa-sign {
   height: 46px; }
