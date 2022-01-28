@@ -11944,6 +11944,10 @@ ol {
           flex: 0 1 auto; }
 
 /*--------------------選單開始------------------*/
+header.godown {
+  -webkit-box-shadow: 0 0 10px #014674;
+          box-shadow: 0 0 10px #014674; }
+
 .top-link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13941,10 +13945,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos], [data-aos][data-aos][data-
   height: 45px;
   width: 45px;
   border-radius: 50%;
-  bottom: -90px;
-  -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
+  bottom: -65px;
   padding: 0;
   border: none;
   outline: none;
@@ -13955,13 +13956,13 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos], [data-aos][data-aos][data-
     .slick-next {
       width: 36px;
       height: 36px;
-      bottom: -70px; } }
+      bottom: -55px; } }
   @media (max-width: 991px) {
     .slick-prev,
     .slick-next {
       width: 30px;
       height: 30px;
-      bottom: -60px; } }
+      bottom: -45px; } }
   .slick-prev:hover,
   .slick-next:hover {
     opacity: 0.8; }

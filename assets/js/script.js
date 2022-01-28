@@ -50,8 +50,10 @@ $(function () {//JS開頭
 	$(window).scroll(function () {
 		if ($(this).scrollTop() > 100) { //若目前的位置距離網頁頂端>100px
 			$(".gotop").fadeIn("fast");
+			$("header").addClass("godown");
 		} else {
 			$(".gotop").stop().fadeOut("fast");
+			$("header").removeClass("godown");
 		}
 
 		var index = 0;//各單元區塊順序
@@ -88,7 +90,7 @@ $(function () {//JS開頭
 		slidesToScroll: 3,
 		responsive: [
 		  {
-			breakpoint: 768,
+			breakpoint: 1200,
 			settings: {
 			  slidesToShow: 2,
 			  slidesToScroll: 2,
@@ -97,7 +99,7 @@ $(function () {//JS開頭
 			}
 		  },
 		  {
-			breakpoint: 480,
+			breakpoint: 768,
 			settings: {
 			  slidesToShow: 1,
 			  slidesToScroll: 1
@@ -117,7 +119,7 @@ $(function () {//JS開頭
 		slidesToScroll: 3,
 		responsive: [
 		  {
-			breakpoint: 768,
+			breakpoint: 1200,
 			settings: {
 			  slidesToShow: 2,
 			  slidesToScroll: 2,
@@ -126,7 +128,7 @@ $(function () {//JS開頭
 			}
 		  },
 		  {
-			breakpoint: 480,
+			breakpoint: 768,
 			settings: {
 			  slidesToShow: 1,
 			  slidesToScroll: 1
