@@ -12631,7 +12631,9 @@ footer {
     background: url("../images/bg-wave.svg") repeat-x #1770AC;
     background-position: bottom;
     background-size: 80%;
-    padding-top: 70px; }
+    padding-top: 70px;
+    padding-bottom: 210px;
+    margin-bottom: -1px; }
     @media (max-width: 991px) {
       .section[data-bg="flood"] {
         background-size: 1000px;
@@ -12640,30 +12642,28 @@ footer {
     background: url("../images/footer-vision-start.svg") no-repeat, url("../images/footer-vision-end.svg") no-repeat, url("../images/bg2.svg") no-repeat #fff;
     background-size: 1200px, 1200px, 1400px;
     background-position: -200px bottom, 110% bottom, center top;
-    padding-bottom: 350px;
+    padding-bottom: 430px;
     /*ipnone6*/ }
     @media (max-width: 1650px) {
       .section[data-bg="disaster"] {
-        padding-bottom: 300px;
+        padding-bottom: 400px;
         background-size: 1200px, 1200px, 1000px;
         background-position: -250px bottom, 130% bottom, center top; } }
     @media (max-width: 1430px) {
       .section[data-bg="disaster"] {
-        padding-bottom: 280px;
         background-position: -300px bottom, 150% bottom, center top; } }
     @media (max-width: 1200px) {
       .section[data-bg="disaster"] {
-        padding-bottom: 250px;
         background-size: 900px,900px,1000px;
         background-position: -280px bottom, 350px bottom, center top; } }
     @media (max-width: 991px) {
       .section[data-bg="disaster"] {
-        padding-bottom: 150px;
+        padding-bottom: 250px;
         background-size: 80%;
         background-position: -70% bottom, 280px bottom, center top; } }
     @media (max-width: 768px) {
       .section[data-bg="disaster"] {
-        padding-bottom: 160px;
+        padding-bottom: 190px;
         background: url("../images/footer-vision-start.svg") no-repeat, url("../images/footer-vision-end.svg") no-repeat, url("../images/bg2.svg") no-repeat #fff center;
         background-size: 500px,500px,800px;
         background-position: -50% bottom, 260px bottom, center top; } }
