@@ -9358,12 +9358,6 @@ body {
   letter-spacing: 1px;
   color: #414141; }
 
-.clear {
-  clear: both;
-  height: 0;
-  font-size: 1px;
-  line-height: 0px; }
-
 img {
   display: block;
   max-width: 100%;
@@ -11326,10 +11320,7 @@ ol {
 .side-content {
   height: 800px;
   margin-bottom: 120px;
-  width: calc(100% - 350px); }
-  @media (max-width: 1430px) {
-    .side-content {
-      width: calc(100% - 300px); } }
+  width: 100%; }
 
 .side-title {
   font-size: 1.4em; }
@@ -12163,6 +12154,9 @@ ol {
     .wrapper {
       margin-top: 99px; } }
   @media (max-width: 991px) {
+    .wrapper {
+      margin-top: 91px; } }
+  @media (max-width: 576px) {
     .wrapper {
       margin-top: 83px; } }
 
