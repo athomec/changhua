@@ -10373,9 +10373,12 @@ ol {
   border-radius: 50px;
   background: rgba(255, 255, 255, 0.3); }
   @media (max-width: 768px) {
-    .toggle-menu[data-content="news"] .toggle-btn img {
-      width: 20px;
-      margin-right: 5px; } }
+    .toggle-menu[data-content="news"] .toggle-btn {
+      padding-left: 0;
+      padding-right: 0; }
+      .toggle-menu[data-content="news"] .toggle-btn img {
+        width: 20px;
+        margin-right: 5px; } }
   .toggle-menu[data-content="news"] .toggle-btn:hover {
     background: white; }
 
