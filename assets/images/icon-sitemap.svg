@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="icon-sitemap" transform="translate(-1340 -25)">
+    <g id="Group_59" data-name="Group 59" transform="translate(1342 32)">
+      <path id="Path_20" data-name="Path 20" d="M8.343,9.806H2V7.269H8.343Zm0,3.806H2v2.537H8.343Zm17.241,8.88-4.859-4.859a6.344,6.344,0,1,1,2.842-5.29,6.316,6.316,0,0,1-1.053,3.489L27.373,20.7ZM21.029,12.343a3.806,3.806,0,1,0-3.806,3.806A3.817,3.817,0,0,0,21.029,12.343ZM2,22.492H14.686V19.955H2Z" transform="translate(-2 -6)" fill="#1770ac"/>
+    </g>
+    <rect id="Rectangle_197" data-name="Rectangle 197" width="30" height="30" transform="translate(1340 25)" fill="none"/>
+  </g>
+</svg>

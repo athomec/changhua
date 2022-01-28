@@ -1,0 +1,10 @@
+<svg id="banner-corner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="293.149" height="184.755" viewBox="0 0 293.149 184.755">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_56" data-name="Rectangle 56" width="293.149" height="184.755" fill="#d6efff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_8" data-name="Group 8" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <path id="Path_1" data-name="Path 1" d="M293.149,184.756V1.761A127.627,127.627,0,0,0,238.533,4.5a90.644,90.644,0,0,0-19.438,7.489c-16.124,8.635-29.777,23.626-41.541,40.4-10.546,15.035-22.959,31.06-39,34.676-7.162,1.616-14.485.3-21.732-.353-23.927-2.172-48.5,3.076-69.794,17.756C30.066,116.156,12.074,136.16,3.755,159.672.961,167.569.155,176.137,0,184.756Z" transform="translate(0 0)" fill="#d6efff"/>
+  </g>
+</svg>

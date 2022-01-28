@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="16.5" viewBox="0 0 22 16.5">
+  <g id="icon-menu" transform="translate(0 -58.025)">
+    <g id="grip-solid-horizontal_1_" transform="translate(0 58.025)">
+      <path id="Path_97" data-name="Path 97" d="M20.625,351.242H1.375a1.555,1.555,0,0,1,0-3.088h19.25a1.555,1.555,0,0,1,0,3.088Z" transform="translate(0 -334.742)" fill="#fff"/>
+      <path id="Path_98" data-name="Path 98" d="M20.625,206.178H1.375a1.555,1.555,0,0,1,0-3.088h19.25a1.555,1.555,0,0,1,0,3.088Z" transform="translate(0 -196.384)" fill="#fff"/>
+      <path id="Path_99" data-name="Path 99" d="M20.625,61.113H1.375a1.555,1.555,0,0,1,0-3.088h19.25a1.555,1.555,0,0,1,0,3.088Z" transform="translate(0 -58.025)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
