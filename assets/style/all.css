@@ -12012,7 +12012,11 @@ ol {
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    /*ipnone6*/ }
+    @media (max-width: 375px) {
+      .navbar .navbar-brand {
+        letter-spacing: -0.5px; } }
     .navbar .navbar-brand:focus {
       outline: 2px dashed #78C9FF !important; }
   @media (max-width: 576px) {
