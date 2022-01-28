@@ -10380,7 +10380,8 @@ ol {
   background: rgba(255, 255, 255, 0.3); }
   @media (max-width: 768px) {
     .toggle-menu[data-content="news"] .toggle-btn img {
-      width: 20px; } }
+      width: 20px;
+      margin-right: 5px; } }
   .toggle-menu[data-content="news"] .toggle-btn:hover {
     background: white; }
 
@@ -11315,7 +11316,8 @@ ol {
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    border-radius: 0; }
     .side-toggle .btn:first-child {
       border-bottom: 1px solid #fff; }
     .side-toggle .btn.active {
@@ -12024,6 +12026,7 @@ ol {
       outline: 2px dashed #78C9FF !important; }
   @media (max-width: 576px) {
     .navbar .navbar-toggler {
+      padding-left: 0;
       padding-right: 0; } }
   .navbar .navbar-title {
     font-size: 1.6em;
@@ -12321,6 +12324,8 @@ footer {
     @media (max-width: 576px) {
       footer::after {
         bottom: -60px; } }
+  footer a {
+    color: #fff; }
 
 .aa-sign {
   height: 46px; }
@@ -12636,7 +12641,7 @@ footer {
     margin-bottom: -1px; }
     @media (max-width: 991px) {
       .section[data-bg="flood"] {
-        background-size: 1000px;
+        background-size: 1500px;
         padding-top: 30px; } }
   .section[data-bg="disaster"] {
     background: url("../images/footer-vision-start.svg") no-repeat, url("../images/footer-vision-end.svg") no-repeat, url("../images/bg2.svg") no-repeat #fff;
