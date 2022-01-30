@@ -40,14 +40,21 @@ $(function () {//JS開頭
 
 	});
 
-	//地圖設定
+	//地圖切換按鈕設定
 	$(".js-side-toggle").find(".js-toggle-menu").find(".btn").click(function () {
 		$(".js-side-menu").addClass("open");
 		$(".js-side-toggle").addClass("open");
 		$(".js-side-content").addClass("open");
 	})
+	//地圖收合按鈕設定
 	$(".js-map-toggler").click(function () {
-		$("#locate-all").toggleClass("show");
+		if($("#layer-all").hasClass("show")){
+			$("#layer-all").removeClass("show");
+			$("#locate-all").addClass("show");
+		}else{
+			$("#locate-all").addClass("show");
+		}
+
 		$(".js-side-menu").toggleClass("open");
 		$(".js-side-toggle").toggleClass("open");
 		$(".js-side-content").toggleClass("open");
