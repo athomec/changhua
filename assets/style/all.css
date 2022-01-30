@@ -11273,114 +11273,6 @@ ol {
       font-size: 0.8em; } }
 
 /*-----------------區塊樣式---------------------*/
-.side-menu {
-  width: 350px;
-  height: calc(100vh - 145px);
-  background: #fff;
-  border-right: 1px solid #fff; }
-  @media (max-width: 1430px) {
-    .side-menu {
-      width: 300px;
-      height: calc(100vh - 132px); } }
-  @media (max-width: 1200px) {
-    .side-menu {
-      height: calc(100vh - 99px); } }
-  @media (max-width: 991px) {
-    .side-menu {
-      height: calc(100vh - 91px); } }
-  .side-menu .form-select {
-    border-radius: 10px;
-    background: url("../images/icon-select.svg") no-repeat #F2F9FF;
-    background-position: right 8px;
-    border: 1px solid #1770AC; }
-  .side-menu .form-control {
-    border-radius: 10px;
-    background: #F2F9FF;
-    background-position: right 8px;
-    border: 1px solid #1770AC; }
-
-.side-toggle {
-  width: 48px; }
-  .side-toggle .btn {
-    width: 100%;
-    height: 48px;
-    padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    border-radius: 0; }
-    .side-toggle .btn:first-child {
-      border-bottom: 1px solid #fff; }
-    .side-toggle .btn.active {
-      background: #104848; }
-
-.side-content {
-  height: 800px;
-  margin-bottom: 120px;
-  width: 100%; }
-
-.side-title {
-  font-size: 1.4em; }
-
-.side-function-title {
-  font-size: 1.4em;
-  text-align: center; }
-
-.map-function .side-title {
-  border-radius: 0 50px 50px 0;
-  display: inline-block; }
-
-.map-container {
-  position: relative;
-  height: 100%; }
-  .map-container iframe {
-    height: 100%; }
-
-.map-info {
-  position: absolute; }
-  .map-info[data-content="area"] {
-    width: 160px;
-    background: #fff;
-    text-align: center;
-    border-radius: 10px; }
-    .map-info[data-content="area"]:after {
-      content: "";
-      display: block;
-      position: absolute;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 20px 15px 0 15px;
-      border-color: #fff transparent transparent transparent;
-      left: calc(50% - 15px);
-      bottom: -15px; }
-  .map-info[data-content="locate"] {
-    width: 250px;
-    background: #fff;
-    text-align: center;
-    border-radius: 10px; }
-    .map-info[data-content="locate"]:after {
-      content: "";
-      display: block;
-      position: absolute;
-      width: 32px;
-      height: 45px;
-      background: url("../images/icon-map-locate.svg");
-      background-size: contain;
-      left: calc(50% - 16px);
-      bottom: -30px; }
-  .map-info[data-content="key"] {
-    width: 35px;
-    height: 49px;
-    background: url("../images/icon-map-locate.svg");
-    background-size: contain; }
-
 .message-box {
   display: block;
   border-radius: 40px;
@@ -12750,6 +12642,206 @@ footer {
       .text-round-img img {
         width: 100%;
         height: auto; } }
+
+.side-menu {
+  width: 350px;
+  height: calc(100vh - 145px);
+  background: #fff;
+  border-right: 1px solid #fff;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+  @media (max-width: 1430px) {
+    .side-menu {
+      width: 300px;
+      height: calc(100vh - 132px); } }
+  @media (max-width: 1200px) {
+    .side-menu {
+      position: fixed;
+      left: -300px;
+      height: calc(100vh - 99px); }
+      .side-menu.open {
+        display: block;
+        left: 0; }
+        .side-menu.open .side-title {
+          background: #fff !important;
+          color: #0B7B7B !important;
+          border-bottom: 1px solid #0B7B7B; } }
+  @media (max-width: 991px) {
+    .side-menu {
+      height: calc(100vh - 91px); } }
+  .side-menu .form-select {
+    border-radius: 10px;
+    background: url("../images/icon-select.svg") no-repeat #F2F9FF;
+    background-position: right 8px;
+    border: 1px solid #1770AC; }
+  .side-menu .form-control {
+    border-radius: 10px;
+    background: #F2F9FF;
+    background-position: right 8px;
+    border: 1px solid #1770AC; }
+
+.side-title {
+  font-size: 1.4em; }
+
+#layer-all {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 145px;
+  z-index: 15;
+  width: calc(100% - 350px); }
+  @media (max-width: 1430px) {
+    #layer-all {
+      top: 132px;
+      width: calc(100% - 300px); } }
+  @media (max-width: 1200px) {
+    #layer-all {
+      display: none;
+      width: 100%;
+      top: 0;
+      right: auto; }
+      #layer-all.show {
+        display: block; } }
+  #layer-all .side-title {
+    border-radius: 0 50px 50px 0;
+    display: inline-block;
+    width: 180px; }
+    @media (max-width: 1200px) {
+      #layer-all .side-title {
+        display: block;
+        border-radius: 0;
+        width: 100%;
+        text-align: center; } }
+  #layer-all .layer-function {
+    background: #104848;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    @media (max-width: 1200px) {
+      #layer-all .layer-function {
+        background: #fff;
+        color: #0B7B7B;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
+  #layer-all .layer-form {
+    width: 100%; }
+    @media (max-width: 1200px) {
+      #layer-all .layer-form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
+
+.side-toggle {
+  display: none;
+  width: 59px; }
+  @media (max-width: 1200px) {
+    .side-toggle {
+      display: block; } }
+  .side-toggle.open {
+    position: fixed;
+    height: 100%;
+    left: 300px; }
+    .side-toggle.open > .btn img {
+      -webkit-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+              transform: rotate(180deg); }
+  .side-toggle > .btn {
+    border-bottom: 1px solid #fff; }
+  .side-toggle .btn {
+    width: 100%;
+    height: 59px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 0; }
+    .side-toggle .btn.active {
+      background: #104848 !important;
+      pointer-events: none; }
+
+.side-content {
+  height: 800px;
+  margin-bottom: 120px;
+  width: calc(100% - 350px);
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+  @media (max-width: 1430px) {
+    .side-content {
+      width: calc(100% - 300px); } }
+  @media (max-width: 1200px) {
+    .side-content {
+      width: calc(100% - 59px);
+      margin-bottom: 0; } }
+  .side-content.open {
+    margin-left: 359px; }
+
+.side-function-title {
+  font-size: 1.4em;
+  text-align: center; }
+
+.map-container {
+  position: relative;
+  height: 100%;
+  z-index: 10; }
+  .map-container iframe {
+    height: 100%; }
+
+.map-info {
+  position: absolute; }
+  .map-info[data-content="area"] {
+    width: 160px;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px; }
+    .map-info[data-content="area"]:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 20px 15px 0 15px;
+      border-color: #fff transparent transparent transparent;
+      left: calc(50% - 15px);
+      bottom: -15px; }
+  .map-info[data-content="locate"] {
+    width: 250px;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px; }
+    .map-info[data-content="locate"]:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 32px;
+      height: 45px;
+      background: url("../images/icon-map-locate.svg");
+      background-size: contain;
+      left: calc(50% - 16px);
+      bottom: -30px; }
+  .map-info[data-content="key"] {
+    width: 35px;
+    height: 49px;
+    background: url("../images/icon-map-locate.svg");
+    background-size: contain; }
 
 body[data-aos-duration='50'] [data-aos], [data-aos][data-aos][data-aos-duration='50'] {
   -webkit-transition-duration: 50ms;

@@ -42,6 +42,21 @@ $(function () {//JS開頭
 
 	});
 
+	//地圖設定
+	$(".js-map-toggler").click(function () {
+		$(this).toggleClass("open");
+		$(".js-side-menu").toggleClass("open");
+		$(".js-side-toggle").toggleClass("open");
+		$(".js-side-content").toggleClass("open");
+		if($(this).hasClass("open")){
+			$('[data-bs-target="#locate-all"]').addClass("active");
+		}else{
+			$(".js-side-toggle").find(".js-toggle-menu").find(".btn").removeClass("active")
+		}
+		
+	});
+	//$('[data-test~="foo"]')
+
 	//----------------gotop功能-----------------
 	$(".gotop").click(function () {
 		$("html,body").animate({ scrollTop: 0 }, 300);
