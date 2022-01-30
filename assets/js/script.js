@@ -38,16 +38,20 @@ $(function () {//JS開頭
 			$(this).find('span').removeClass('ti-angle-down').addClass('ti-angle-up');
 		}
 
-
-
 	});
 
 	//地圖設定
+	$(".js-side-toggle").find(".js-toggle-menu").find(".btn").click(function () {
+		$(".js-side-menu").addClass("open");
+		$(".js-side-toggle").addClass("open");
+		$(".js-side-content").addClass("open");
+	})
 	$(".js-map-toggler").click(function () {
-		$(this).toggleClass("open");
+		$("#locate-all").toggleClass("show");
 		$(".js-side-menu").toggleClass("open");
 		$(".js-side-toggle").toggleClass("open");
 		$(".js-side-content").toggleClass("open");
+		$(this).toggleClass("open");
 		if($(this).hasClass("open")){
 			$('[data-bs-target="#locate-all"]').addClass("active");
 		}else{
@@ -55,7 +59,6 @@ $(function () {//JS開頭
 		}
 		
 	});
-	//$('[data-test~="foo"]')
 
 	//----------------gotop功能-----------------
 	$(".gotop").click(function () {
@@ -154,6 +157,23 @@ $(function () {//JS開頭
 		  // instead of a settings object
 		]
 	  });
+
+	RESIZE();
+
+	function RESIZE() {
+		WINDOWH = $(window).height();
+		WINDOW = $(window).width();
+
+		if (WINDOW < 1200) {
+			$("#locate-all").removeClass("show");
+		} else {
+			$("#locate-all").addClass("show");
+		}
+	}
+
+	$(window).resize(function () {
+		RESIZE();
+	})
 
 
 })//JS尾端	
