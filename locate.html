@@ -157,21 +157,21 @@
             <h2 class="side-title bg-tertiary-color white side-menue mb-0 text-center py-3">地圖定位</h2>
             <div class="row toggle-menu js-toggle-menu g-0" data-content="locate">
                 <div class="col-4">
-                    <button class="btn toggle-btn active" title="行政區" type="button" data-bs-toggle="collapse"
+                    <button class="btn toggle-btn active rounded-0" title="行政區" type="button" data-bs-toggle="collapse"
                         data-bs-target="#area" aria-expanded="false" aria-controls="collapseExample">
                         <div class="toggle-icon"><img src="./assets/images/icon-area.svg" alt="行政區icon"></div>
                         行政區
                     </button>
                 </div>
                 <div class="col-4">
-                    <button class="btn toggle-btn" title="座標" type="button" data-bs-toggle="collapse"
+                    <button class="btn toggle-btn rounded-0" title="座標" type="button" data-bs-toggle="collapse"
                         data-bs-target="#locate" aria-expanded="false" aria-controls="collapseExample">
                         <div class="toggle-icon"><img src="./assets/images/icon-locate.svg" alt="座標icon"></div>
                         座標
                     </button>
                 </div>
                 <div class="col-4">
-                    <button class="btn toggle-btn" title="關鍵字" type="button" data-bs-toggle="collapse"
+                    <button class="btn toggle-btn rounded-0" title="關鍵字" type="button" data-bs-toggle="collapse"
                         data-bs-target="#search" aria-expanded="false" aria-controls="collapseExample">
                         <div class="toggle-icon"><img src="./assets/images/icon-search.svg" alt="關鍵字icon"></div>
                         關鍵字
@@ -182,7 +182,7 @@
             <div class="side-function p-4 p-xxl-5">
                 <div class="collapse show" id="area" data-bs-parent=".side-function">
                     <h3 class="side-function-title mb-4">行政區定位</h3>
-                    <div class="mb-4">
+                    <div class="mb-2 mb-sm-3 mb-md-4">
                         <label for="county" class="form-label d-none">請選擇縣市</label>
                         <select class="form-select" id="county" title="請選擇縣市">
                             <option selected>彰化縣</option>
@@ -191,7 +191,7 @@
                             <option value="3">Three</option>
                         </select>
                     </div>
-                    <div class="mb-4">
+                    <div class="mb-2 mb-sm-3 mb-md-4">
                         <label for="township" class="form-label d-none">請選擇鄉鎮市區</label>
                         <select class="form-select" id="township" title="請選擇鄉鎮市區">
                             <option selected>彰化市</option>
@@ -200,7 +200,7 @@
                             <option value="3">Three</option>
                         </select>
                     </div>
-                    <div class="mb-4">
+                    <div class="mb-2 mb-sm-3 mb-md-4">
                         <label for="district" class="form-label d-none">請選擇地區</label>
                         <select class="form-select" id="district" title="請選擇地區">
                             <option selected>中央里</option>
@@ -215,7 +215,7 @@
                 </div>
                 <div class="collapse" id="locate" data-bs-parent=".side-function">
                     <h3 class="side-function-title mb-4">座標定位</h3>
-                    <div class="mb-4">
+                    <div class="mb-2 mb-sm-3 mb-md-4">
                         <label for="locate-system" class="form-label d-none">請選擇坐標系統</label>
                         <select class="form-select" id="locate-system">
                             <option selected>WGS84</option>
@@ -224,11 +224,11 @@
                             <option value="3">Three</option>
                         </select>
                     </div>
-                    <div class="mb-4">
+                    <div class="mb-2 mb-sm-3 mb-md-4">
                         <label for="locatex" class="form-label d-none">請輸入經度</label>
                         <input type="text" class="form-control text-end" id="locatex" value="120.973" title="請輸入經度">
                     </div>
-                    <div class="mb-4">
+                    <div class="mb-2 mb-sm-3 mb-md-4">
                         <label for="locatey" class="form-label d-none">請輸入緯度</label>
                         <input type="text" class="form-control text-end" id="locatey" value="23.976" title="請輸入緯度">
                     </div>
@@ -238,7 +238,7 @@
                 </div>
                 <div class="collapse" id="search" data-bs-parent=".side-function">
                     <h3 class="side-function-title mb-4">關鍵字定位</h3>
-                    <div class="mb-4">
+                    <div class="mb-2 mb-sm-3 mb-md-4">
                         <label for="key-word" class="form-label d-none">請輸入關鍵字</label>
                         <input type="text" class="form-control" id="key-word" value="彰化縣彰化市中央里" title="請輸入關鍵字">
                     </div>

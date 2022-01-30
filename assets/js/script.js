@@ -178,9 +178,5 @@ $(function () {//JS開頭
 		}
 	}
 
-	$(window).resize(function () {
-		RESIZE();
-	})
-
 
 })//JS尾端	
