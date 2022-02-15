@@ -99,12 +99,12 @@ $(function () {//JS開頭
 	});
 
 	//主選單設定
-	$(".navbar-nav").find('a').click(function () {
+	/*$(".navbar-nav").find('a').click(function () {
 		var section = $(this).attr("href");
-		$("html,body").animate({ scrollTop: $(section).offset().top - 66 }, 300);
+		$("html,body").animate({ scrollTop: $(section).offset().top + 100 }, 300);
 		$(".navbar-collapse").removeClass("show");
 		return false;
-	});
+	});*/
 	
 	//消息輪播設定
 	$('.flood-slider').slick({
