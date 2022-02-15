@@ -13020,7 +13020,7 @@ footer {
 
 .breadcrumb-item a {
   display: inline-block;
-  padding: 0 15px;
+  padding: 2px 15px;
   background: #fff;
   color: #1770AC;
   border-radius: 50px; }
@@ -13030,7 +13030,7 @@ footer {
 
 .breadcrumb-item.active p {
   display: inline-block;
-  padding: 0 15px;
+  padding: 2px 15px;
   background: #fff;
   color: #1770AC;
   border-radius: 50px; }
