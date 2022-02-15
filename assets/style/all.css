@@ -10931,6 +10931,8 @@ ol {
 .info-list {
   height: 442px;
   display: block; }
+  .info-list.less {
+    height: auto; }
   .info-list-item {
     border-bottom: 1px solid #78C9FF; }
   .info-list-link {
