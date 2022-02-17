@@ -18,8 +18,8 @@ $(function () {//JS開頭
 	})
 
 	//頁籤按鈕切換設定
-	$(".js-toggle-menu").find('button').click(function () {
-		$(this).parents(".js-toggle-menu").find('button').removeClass('active');
+	$(".js-toggle-menu").find('.js-toggle-btn').click(function () {
+		$(this).parents(".js-toggle-menu").find('.js-toggle-btn').removeClass('active');
 		$(this).addClass("active");
 		$(this).parents(".js-toggle-menu").find('span').removeClass('ti-arrow-circle-down').addClass('ti-arrow-circle-right');
 		$(this).find('span').removeClass('ti-arrow-circle-right').addClass('ti-arrow-circle-down');
@@ -39,6 +39,7 @@ $(function () {//JS開頭
 		}
 
 	});
+
 
 	//地圖切換按鈕設定
 	$(".js-side-toggle").find(".js-toggle-menu").find(".btn").click(function () {

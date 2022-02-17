@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="5" viewBox="0 0 60 5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="60" height="5" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="dot" clip-path="url(#clip-path)">
+    <g transform="translate(-659 -580)">
+      <circle id="Ellipse_114" data-name="Ellipse 114" cx="2.5" cy="2.5" r="2.5" transform="translate(659 580)" fill="#87cffe"/>
+    </g>
+    <g transform="translate(-644 -580)">
+      <circle id="Ellipse_114-2" data-name="Ellipse 114" cx="2.5" cy="2.5" r="2.5" transform="translate(659 580)" fill="#87cffe"/>
+    </g>
+    <g transform="translate(-629 -580)">
+      <circle id="Ellipse_114-3" data-name="Ellipse 114" cx="2.5" cy="2.5" r="2.5" transform="translate(659 580)" fill="#87cffe"/>
+    </g>
+    <g transform="translate(-614 -580)">
+      <circle id="Ellipse_114-4" data-name="Ellipse 114" cx="2.5" cy="2.5" r="2.5" transform="translate(659 580)" fill="#87cffe"/>
+    </g>
+  </g>
+</svg>
