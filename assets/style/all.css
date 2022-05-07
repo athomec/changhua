@@ -12815,10 +12815,11 @@ footer {
   padding: 20px 0 20px 0; }
   @media (max-width: 1430px) {
     footer {
-      background-size: 1900px; } }
+      background-size: 1900px;
+      background: url("../images/wave-middle.svg") no-repeat bottom #2A8BCC; } }
   @media (max-width: 576px) {
     footer {
-      background-size: 2500px; } }
+      background-size: 3500px; } }
   footer::after {
     content: "";
     display: block;
