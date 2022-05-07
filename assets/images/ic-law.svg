@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76">
+  <g id="ic-law" transform="translate(-706 -1381)">
+    <circle id="Ellipse_107" data-name="Ellipse 107" cx="38" cy="38" r="38" transform="translate(706 1381)" fill="#fff"/>
+    <path id="Ellipse_107_-_Outline" data-name="Ellipse 107 - Outline" d="M38,7A31,31,0,1,0,69,38,31.035,31.035,0,0,0,38,7m0-7A38,38,0,1,1,0,38,38,38,0,0,1,38,0Z" transform="translate(706 1381)" fill="#d6efff"/>
+    <g id="gavel_black_24dp" transform="translate(726.526 1403)">
+      <g id="Group_112" data-name="Group 112">
+        <rect id="Rectangle_134" data-name="Rectangle 134" width="34" height="34" transform="translate(0.474)" fill="none"/>
+      </g>
+      <g id="Group_114" data-name="Group 114" transform="translate(0.953 1.302)">
+        <g id="Group_113" data-name="Group 113" transform="translate(0)">
+          <rect id="Rectangle_135" data-name="Rectangle 135" width="5.763" height="28.814" transform="translate(6.474 10.186) rotate(-44.968)" fill="#1770ac"/>
+          <rect id="Rectangle_136" data-name="Rectangle 136" width="5.763" height="11.526" transform="matrix(0.707, -0.707, 0.707, 0.707, 12.577, 4.075)" fill="#1770ac"/>
+          <rect id="Rectangle_137" data-name="Rectangle 137" width="5.763" height="11.526" transform="translate(0.35 16.303) rotate(-45)" fill="#1770ac"/>
+          <rect id="Rectangle_138" data-name="Rectangle 138" width="19" height="3" transform="translate(-0.479 28.698)" fill="#1770ac"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

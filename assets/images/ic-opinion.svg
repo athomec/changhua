@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76">
+  <g id="ic-opinion" transform="translate(-1212 -1381)">
+    <circle id="Ellipse_108" data-name="Ellipse 108" cx="38" cy="38" r="38" transform="translate(1212 1381)" fill="#fff"/>
+    <path id="Ellipse_108_-_Outline" data-name="Ellipse 108 - Outline" d="M38,7A31,31,0,1,0,69,38,31.035,31.035,0,0,0,38,7m0-7A38,38,0,1,1,0,38,38,38,0,0,1,38,0Z" transform="translate(1212 1381)" fill="#d6efff"/>
+    <g id="email_black_24dp" transform="translate(1232.784 1403)">
+      <path id="Path_51" data-name="Path 51" d="M0,0H34.3V34.3H0Z" transform="translate(0)" fill="none"/>
+      <path id="Path_52" data-name="Path 52" d="M28.014,4H4.89A2.911,2.911,0,0,0,2.014,6.938L2,24.567a2.923,2.923,0,0,0,2.89,2.938H28.014a2.923,2.923,0,0,0,2.89-2.938V6.938A2.923,2.923,0,0,0,28.014,4Zm0,5.876L16.452,17.222,4.89,9.876V6.938l11.562,7.345L28.014,6.938Z" transform="translate(0.7 1.4)" fill="#1770ac"/>
+    </g>
+  </g>
+</svg>
